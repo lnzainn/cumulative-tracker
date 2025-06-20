@@ -179,7 +179,6 @@ export default function TimeBoxes() {
           type="text"
           value={total}
           onChange={handleInputChange(setTotal)}
-          placeholder="hh:mm:ss.cs or digits"
           style={styles.input}
           maxLength={12}
           title=""
@@ -210,7 +209,6 @@ export default function TimeBoxes() {
                 setAttempts(newAttempts);
               }
             }}
-            placeholder="hh:mm:ss.cs or digits"
             style={styles.input}
             maxLength={12}
             title="Enter time as hh:mm:ss.cs, mm:ss.cs or just digits (e.g. 2343 = 23.43 seconds)"
