@@ -107,7 +107,7 @@ export default function TimeBoxes() {
 
   return (
     <div style={styles.container}>
-      <h2 style={styles.title}>Enter the times below</h2>
+      <h2 style={styles.title}>Track how much time is left!</h2>
       <p
         style={{
           ...styles.title,
@@ -179,7 +179,7 @@ export default function TimeBoxes() {
           type="text"
           value={total}
           onChange={handleInputChange(setTotal)}
-          placeholder="hh:mm:ss.cs or mm:ss.cs or digits"
+          placeholder="hh:mm:ss.cs or digits"
           style={styles.input}
           maxLength={12}
           title=""
@@ -210,7 +210,7 @@ export default function TimeBoxes() {
                 setAttempts(newAttempts);
               }
             }}
-            placeholder="hh:mm:ss.cs or mm:ss.cs or digits"
+            placeholder="hh:mm:ss.cs or digits"
             style={styles.input}
             maxLength={12}
             title="Enter time as hh:mm:ss.cs, mm:ss.cs or just digits (e.g. 2343 = 23.43 seconds)"
